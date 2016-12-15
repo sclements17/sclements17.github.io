@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Sam Clements"
+  },
+  "text": {
+    "more": "This graph shows the Eigenvector Centrality of the key players of the conspiracy surrounding the Iranian Revolution of 1979 that claims the United States and British government and media played a significant role in the overthrow of the Shah and the installment of Khomeini.",
+    "intro": "This is a graph of the Eigenvector Centrality of the conspiracy surrounding the Iranian Revolution of 1979",
+    "title": "Conspiracy Surround Iranian Revolution of 1979"
+  },
+  "legend": {
+    "edgeLabel": "Connections",
+    "colorLabel": "Eigenvector Centrality",
+    "nodeLabel": "People"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
