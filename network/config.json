@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Sam Clements"
+  },
+  "text": {
+    "more": "These are the key players in the Iranian Revolution of 1979 as highlighted in a BBC article published in 2016. It uses as evidence recent documents that were released to the public in 2008 that include secret communications between Khomeini himself and the White House the two weeks in January leading up to the arrival of Khomeini in Tehran. It is a graph of Betweenness Centrality so it shows how much each node is on the shortest path for other nodes to communicate, how in the middle it truly is.a",
+    "intro": "This is a graph ordered by Betweenness Centrality of the key players and connections in the Iranian Revolution of 1979",
+    "title": "Iranian Revolution of 1979"
+  },
+  "legend": {
+    "edgeLabel": "Connections",
+    "colorLabel": "Betweenness Centrality",
+    "nodeLabel": "People"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
